@@ -53,7 +53,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: ['http://localhost:3000', 'http://localhost:3001'],
+    origin: ['https://chatapplication29.netlify.app', 'http://localhost:3001'],
     // credentials: true,
   },
 });
